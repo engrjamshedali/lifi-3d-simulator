@@ -1,0 +1,6 @@
+{
+  "name": "3D Li-Fi Data Transmission Simulator",
+  "description": "Interactive 3D Li-Fi data transmission simulator demonstrating real-world optical communication and signal processing for Signals & Systems education.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
