@@ -1,6 +1,31 @@
 # 3D Li-Fi Data Transmission Simulator — Signals & Systems Lab
 
-An interactive, full-featured **3D Optical Wireless Communication (Li-Fi) & Digital Signal Processing (DSP) Simulator** designed for undergraduate **Signals & Systems** laboratory courses, classroom demonstrations, and engineering presentations (IEEE 802.15.7 Visible Light Communication).
+[![Author: Jamshed Ali](https://img.shields.io/badge/Author-Jamshed%20Ali-06b6d4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://jamshedali.me)
+[![IEEE 802.15.7 VLC](https://img.shields.io/badge/Standard-IEEE%20802.15.7%20VLC-3b82f6?style=for-the-badge)](https://jamshedali.me)
+[![Signals & Systems](https://img.shields.io/badge/Lab-Signals%20%26%20Systems-10b981?style=for-the-badge)](https://jamshedali.me)
+
+> **Developed by [Jamshed Ali](https://jamshedali.me)**  
+> An interactive, full-featured **3D Optical Wireless Communication (Li-Fi) & Digital Signal Processing (DSP) Simulator** designed for undergraduate **Signals & Systems** laboratory courses, classroom demonstrations, and engineering presentations.
+
+---
+
+## 📸 Project Screenshots & Visual Walkthrough
+
+### 1. Full 3D Li-Fi Simulation Dashboard & 16-Stage Pipeline
+![3D Li-Fi Data Transmission Simulator Dashboard](./src/assets/images/lifi_dashboard_overview_1793991618150.jpg)
+*Complete workspace featuring the 16-stage Signals & Systems progress bar, interactive DSP parameter sliders, 3D WebGL optoelectronics bench, 4-channel oscilloscope monitor, and live mathematical telemetry.*
+
+---
+
+### 2. Interactive 3D Optoelectronics & Free-Space Optical Channel
+![3D Li-Fi Optical Laboratory Bench](./src/assets/images/lifi_3d_optical_bench_1793991617542.jpg)
+*Close-up view of the 3D laboratory bench showing the Transmitter Workstation, Arduino Uno R3 (`TX`), breadboard with $220\,\Omega$ resistor and 5mm high-intensity LED, volumetric optical beam with photon wave packets across a calibrated optical rail, BPW34 PIN Photodiode, LM358 TIA, and Receiver Workstation (`RX`).*
+
+---
+
+### 3. Fourier Analysis & Fast Fourier Transform (FFT) Spectrum Visualizer
+![Fourier Analysis & FFT Spectrum Visualizer](./src/assets/images/lifi_oscilloscope_fft_1793991618771.jpg)
+*Continuous-Time unipolar NRZ rectangular pulse train $x(t)$ vs. Frequency-Domain Magnitude Spectrum $|X(f)|$ showing the DC bias at $0\,\text{Hz}$, fundamental frequency $f_0 = 1/T_b$, null bandwidth $B_{\text{null}}$, and $\text{sinc}(f T_b)$ spectral envelope.*
 
 ---
 
@@ -117,6 +142,8 @@ Includes a built-in **Hardware BOM & Firmware Modal** containing:
 │   ├── main.tsx                      # React DOM entry point
 │   ├── App.tsx                       # Unified simulation state & master animation loop
 │   ├── index.css                     # Tailwind CSS v4 & custom scrollbar styling
+│   ├── assets/
+│   │   └── images/                   # Project screenshots & visual documentation assets
 │   ├── types/
 │   │   └── simulation.ts             # TypeScript interfaces for signals, samples, & 16 stages
 │   ├── utils/
@@ -158,3 +185,10 @@ Includes a built-in **Hardware BOM & Firmware Modal** containing:
    ```bash
    npm run lint
    ```
+
+---
+
+## 👨‍💻 Author
+
+**Jamshed Ali**  
+🌐 Portfolio & Website: **[jamshedali.me](https://jamshedali.me)**

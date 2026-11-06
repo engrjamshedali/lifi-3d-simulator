@@ -560,6 +560,22 @@ export default function App() {
         isOpen={isHardwareOpen}
         onClose={() => setIsHardwareOpen(false)}
       />
+
+      {/* Footer with Author Attribution */}
+      <footer className="px-4 py-2.5 bg-slate-900/95 border-t border-slate-800 text-xs font-mono text-slate-400 flex flex-wrap items-center justify-between gap-2">
+        <span>3D Li-Fi Data Transmission Simulator // Signals &amp; Systems Laboratory</span>
+        <span>
+          Author:{' '}
+          <a
+            href="https://jamshedali.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:text-cyan-300 font-bold underline decoration-cyan-500/50 hover:decoration-cyan-300 transition"
+          >
+            Jamshed Ali
+          </a>
+        </span>
+      </footer>
     </div>
   );
 }
